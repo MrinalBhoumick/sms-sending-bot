@@ -1,8 +1,8 @@
 name: Schedule Daily Report
 
 on:
-  schedule:
-    - cron: '30 5 * * 1-5' 
+  # schedule:
+    # - cron: '30 5 * * 1-5' 
   push:
     branches:
       - main 
